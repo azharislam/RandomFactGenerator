@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		794F99112377AE540069C44A /* RandomFactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794F99102377AE540069C44A /* RandomFactProvider.swift */; };
+		794F99132377B0F80069C44A /* RandomColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794F99122377B0F80069C44A /* RandomColorProvider.swift */; };
 		79510CF223773438006F5DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79510CF123773438006F5DEC /* AppDelegate.swift */; };
 		79510CF423773438006F5DEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79510CF323773438006F5DEC /* SceneDelegate.swift */; };
 		79510CF623773438006F5DEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79510CF523773438006F5DEC /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		794F99102377AE540069C44A /* RandomFactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFactProvider.swift; sourceTree = "<group>"; };
+		794F99122377B0F80069C44A /* RandomColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorProvider.swift; sourceTree = "<group>"; };
 		79510CEE23773438006F5DEC /* RandomFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79510CF123773438006F5DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79510CF323773438006F5DEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				79510CF123773438006F5DEC /* AppDelegate.swift */,
 				79510CF323773438006F5DEC /* SceneDelegate.swift */,
 				79510CF523773438006F5DEC /* ViewController.swift */,
+				794F99122377B0F80069C44A /* RandomColorProvider.swift */,
+				794F99102377AE540069C44A /* RandomFactProvider.swift */,
 				79510CF723773438006F5DEC /* Main.storyboard */,
 				79510CFA23773439006F5DEC /* Assets.xcassets */,
 				79510CFC23773439006F5DEC /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				79510CF623773438006F5DEC /* ViewController.swift in Sources */,
+				794F99112377AE540069C44A /* RandomFactProvider.swift in Sources */,
+				794F99132377B0F80069C44A /* RandomColorProvider.swift in Sources */,
 				79510CF223773438006F5DEC /* AppDelegate.swift in Sources */,
 				79510CF423773438006F5DEC /* SceneDelegate.swift in Sources */,
 			);
